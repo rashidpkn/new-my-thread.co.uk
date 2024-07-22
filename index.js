@@ -24,14 +24,14 @@ app.post('/send-email', (req, res) => {
     const transporter = nodemailer.createTransport({
         host: 'smtppro.zoho.com',
         auth: {
-            user: 'info@my-thread.com',
+            user: 'info@my-thread.co.uk',
             pass: 'e8aZkrdLZQrk'
         }
     });
 
     const mailOptions = {
-        from: 'info@my-thread.com',
-        to: 'info@my-thread.com',
+        from: 'info@my-thread.co.uk',
+        to: 'info@my-thread.co.uk',
         subject: subject,
 
         // text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`
