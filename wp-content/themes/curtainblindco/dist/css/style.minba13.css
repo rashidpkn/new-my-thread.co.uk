@@ -21137,3 +21137,8 @@ textarea::placeholder {
 	}
 	
 }
+@media screen and (min-width:650px) {
+	span.my-cart.my-cart--filled.mob-hidden {
+		margin-right: 20px !important;
+	}
+}
